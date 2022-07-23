@@ -1,0 +1,34 @@
+{
+  "a6c3bc39-2307-4650-acf7-8917e3238dd5": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1588/1.0.1588.2938/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://ccolabs.sharepoint.com/sites/FRANCISCOPALENCIAAPP": {
+        "dataSources": {
+          "ORDENES DE PRODUCTOS": {
+            "tableName": "7a9b8c50-0e16-4578-97a5-dfaa8b86bf3f"
+          },
+          "REGISTRO DE PRODUCTOS": {
+            "tableName": "746ed932-084d-49ee-936e-dce86ab2e0a7"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "REGISTRO DE PRODUCTOS",
+      "ORDENES DE PRODUCTOS"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "a6c3bc39-2307-4650-acf7-8917e3238dd5"
+  }
+}
